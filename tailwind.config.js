@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroBg: "url('/heroBg.jpg')",
+        aboutBg: "url('/aboutBg.jpg')",
+        projectBg: "url('/polygon.png')",
+        parallaxBg: "url('/parallax-1.jpg')",
       },
       colors: {
         primary: "var(--primary)",
