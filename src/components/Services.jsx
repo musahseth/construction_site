@@ -30,17 +30,17 @@ const Serviceslist = [
 const Services = () => {
   return (
     <div className="container mx-auto py-20  p-4 ">
-      <h1 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
+      <h1 className="text-primary-content text-center text-4xl uppercase font-bold mb-12">
         Services
       </h1>
 
-      <div className="grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-16">
+      <div className="grid place-content-center grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-16">
         {Serviceslist.map((service, i) => (
           <div
             key={i}
-            className="bg- background flex flex-col justify-center items-center gap-4 border-4 border-border shadow-x"
+            className="bg- background flex flex-col justify-center items-center gap-4 border-4 border-border "
           >
-            <div className="-mt-10 size- 20 flex  items-center justify-center rounded-lg bg-white text-primary  md:rounded-xl p-4">
+            <div className="-mt-12 flex  items-center justify-center rounded-lg bg-white text-primary p-4">
               {service.icon}
             </div>
             <div className="p-4">
