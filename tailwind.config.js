@@ -13,6 +13,8 @@ module.exports = {
       backgroundImage: {
         heroBg: "url('/heroBg.jpg')",
         aboutBg: "url('/aboutBg.jpg')",
+        serviceBg: "url('/serviceBg.jpg')",
+        contactBg: "url('/contactBg.jpg')",
         projectBg: "url('/polygon.png')",
         parallaxBg: "url('/parallax-1.jpg')",
       },

@@ -1,8 +1,7 @@
+import React from "react";
 import { BiBuildingHouse } from "react-icons/bi";
 import { FaRulerCombined } from "react-icons/fa";
 import { MdConstruction } from "react-icons/md";
-import { Image } from "@nextui-org/react";
-import React from "react";
 
 const Serviceslist = [
   {
