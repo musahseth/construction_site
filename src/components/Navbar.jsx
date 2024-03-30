@@ -25,6 +25,10 @@ export default function Navbartop() {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
+    setTheme("light");
+  }, []);
+  
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 400) {
         setScroll(true);
@@ -99,10 +103,11 @@ export default function Navbartop() {
       >
         <NavbarContent className="pr-3" justify="start">
           <NavbarBrand>
-            <Link href={"/"} className="font-bold text-xl p-1 capitalize text-white">
-              <span className="text-base border border-black p-2">
-                S H
-              </span>{" "}
+            <Link
+              href={"/"}
+              className="font-bold text-xl p-1 capitalize text-white"
+            >
+              <span className="text-base border border-black p-2">S H</span>{" "}
               constructions
             </Link>
           </NavbarBrand>

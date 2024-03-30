@@ -1,7 +1,6 @@
 export const projects = [
   {
     title: "Ialicante Mediterranean Homes",
-    slug: "ialicante",
     category: ["construction"],
     description:
       "iAlicante provides a brand new line of modern Villas and Apartments and beautiful second-hand properties on the SUNNY Mediterranean coast of Costa Blanca, in Spain '' the White Coast'', which is one of the top holiday destinations.",
@@ -17,7 +16,6 @@ export const projects = [
       orig: "https://unsplash.com/photos/2d4lAQAlbDA",
       author: "Photo by iAlicante Mediterranean Homes on Unsplash",
     },
-    amount: "Php 4,000,000.00",
     duration: "85 Calendar days",
     completionDate: "Feb. 20, 2018",
     owner: "ialicante.com",
