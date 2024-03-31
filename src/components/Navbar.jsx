@@ -27,7 +27,7 @@ export default function Navbartop() {
   useEffect(() => {
     setTheme("light");
   }, []);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 400) {
@@ -74,7 +74,7 @@ export default function Navbartop() {
       {Navitems.map((item, i) => (
         <NavbarItem
           key={i}
-          className="px-4 capitalize text-sm "
+          className="px-4 capitalize text- text-copy hover:underline"
           onClick={() => setIsMenuOpen(false)}
         >
           <Link href={item.link}>{item.name}</Link>
@@ -92,23 +92,15 @@ export default function Navbartop() {
         // shouldHideOnScroll
         // isBordered
         variant="sticky"
-        className="bg-gray-700"
-        // className={` ${
-        //   pathname !== "/"
-        //     ? "bg-primary"
-        //     : scroll
-        //     ? "bg-foreground"
-        //     : "bg-primary lg:py-2"
-        // }`}
+        className="bg-primary gray-700"
       >
         <NavbarContent className="pr-3" justify="start">
           <NavbarBrand>
             <Link
               href={"/"}
-              className="font-bold text-xl p-1 capitalize text-white"
+              className="font-bold text-2xl p-2 capitalize"
             >
-              <span className="text-base border border-black p-2">S H</span>{" "}
-              constructions
+              Nyande
             </Link>
           </NavbarBrand>
         </NavbarContent>

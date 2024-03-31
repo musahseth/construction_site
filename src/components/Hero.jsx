@@ -4,10 +4,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="bg-heroBg h-[90vh] w-full bg-cover bg-center bg-fixed ">
-      <div className="flex flex-col justify-center items-center h-full bg-black/50">
+      <div className="flex flex-col justify-center items-center h-full bg-black/70">
         <h1 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
           {" "}
-          SafeHome constructions
+          Nyande Homes and constructions
         </h1>
         <Divider className="my-4 bg-primary max-w-sm h-1" />
         <div className="flex h-5 items-center justify-center space-x-4 text-small text-white my-2">
