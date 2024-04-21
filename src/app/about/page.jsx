@@ -23,7 +23,7 @@ const About = () => {
       </div>
       <div className="py-20 container mx-auto p-4">
         <h1 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
-          SH CONSTRUCTIONS
+          NYANDE CONSTRUCTION COMPANY{" "}
         </h1>
         <div className="flex flex-col lg:flex-row ">
           <div className="flex-1">
@@ -31,7 +31,7 @@ const About = () => {
           </div>
 
           <div className="flex-1 flex flex-col gap-6 px-4">
-            <p className="font-bold text-xl"> SAFE HOME CONSTRUCTIONS</p>
+            <p className="font-bold text-xl"> NYANDE CONSTRUCTION COMPANY</p>
             {aboutContent.map((para, i) => (
               <p className="text-lg" key={i}>
                 {para}
