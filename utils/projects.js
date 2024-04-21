@@ -1,128 +1,160 @@
 export const projects = [
   {
-    title: "Ialicante Mediterranean Homes",
-    category: ["construction"],
-    description:
-      "iAlicante provides a brand new line of modern Villas and Apartments and beautiful second-hand properties on the SUNNY Mediterranean coast of Costa Blanca, in Spain '' the White Coast'', which is one of the top holiday destinations.",
-    img: {
-      src: [
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-        "https://images.unsplash.com/photo-1512916194211-3f2b7f5f7de3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        "https://images.unsplash.com/photo-1512914890251-2f96a9b0bbe2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
-        "https://images.unsplash.com/photo-1512918428767-68579e250c06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "https://images.unsplash.com/photo-1512916958891-fcf61b2160df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
-        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      ],
-      orig: "https://unsplash.com/photos/2d4lAQAlbDA",
-      author: "Photo by iAlicante Mediterranean Homes on Unsplash",
-    },
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "ialicante.com",
-    address: "Alicante, Costa Blanca, Spain",
-    featured: true,
-  },
-  {
-    title: "Jarek Ceborski",
-    slug: "jarek-ceborski",
+    title: "interior",
     category: ["interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
       src: [
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715532/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.21.39_08ee77b7_scg54f.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_84f30bb8_dhpxji.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_c339a1f4_jwwagy.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_6c24a7fa_uhr1ys.jpg",
       ],
-      orig: "https://unsplash.com/photos/jn7uVeCdf6U",
-      author: "Photo by Jarek Ceborski on Unsplash",
     },
-    amount: "Php 4,000,000.00",
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "Jarek Ceborski",
-    address: "Wrocław, Poland",
+    duration: "",
+    address: "",
     featured: true,
   },
   {
-    title: "Pixasquare",
-    slug: "pixasquare",
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715512/Nyande-constructions/pro-3/IMG-20240331-WA0031_ej0gva.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715513/Nyande-constructions/pro-3/IMG-20240331-WA0032_bjhiup.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0025_ttp9ni.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    featured: true,
+  },
+  {
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0035_p7hpbk.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0034_mhjo7p.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    featured: true,
+  },
+  {
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715517/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_f5cad63c_ckuekc.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715517/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_420855da_pwwycg.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_2c6b4d75_u1du2f.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715520/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.11.54_21e1fd03_mf6nof.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715520/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.11.54_7d7ff796_e97abg.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    featured: true,
+  },
+  {
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240401-WA0008_wldyhv.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715522/Nyande-constructions/pro-6/IMG-20240420-WA0017_dvqcj9.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    // featured: true,
+  },
+  {
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715527/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.07_97d357c8_g4rxq0.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715528/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.08_660be2c7_hcfc9b.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715528/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.08_b4f49786_sk6z33.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    // featured: true,
+  },
+  {
+    title: "interior",
+    category: ["interior design"],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0025_rufp5b.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715530/Nyande-constructions/pro-8/IMG-20240420-WA0026_idpa3b.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0023_ootw1n.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0022_wy7aul.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0024_qbrkra.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0021_py9uln.jpg",
+      ],
+    },
+    duration: "",
+    address: "",
+    // featured: true,
+  },
+
+  {
+    title: "  Homes",
     category: ["construction"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
       src: [
-        "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
       ],
-      orig: "https://unsplash.com/photos/4ojhpgKpS68",
-      author: "Photo by Pixasquare on Unsplash",
     },
-    amount: "Php 4,000,000.00",
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "pixasquare.com",
-    address: "Manila, Philippines",
+    duration: "",
+    address: "",
+    // featured: true,
   },
   {
-    title: "Étienne Beauregard-Riverin",
-    slug: "sphericity",
-    category: ["construction"],
+    title: "interior",
+    category: ["interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
       src: [
-        "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715501/Nyande-constructions/pro-2/IMG-20240331-WA0020_hozrba.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715500/Nyande-constructions/pro-2/IMG-20240331-WA0019_szavqi.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715499/Nyande-constructions/pro-2/IMG-20240331-WA0015_ffgegx.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715502/Nyande-constructions/pro-2/IMG-20240331-WA0021_mdseo7.jpg",
       ],
-      orig: "https://unsplash.com/photos/B0aCvAVSX8E",
-      author: "unsplash.com/@sphericity",
     },
-    amount: "Php 4,000,000.00",
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "Sphericity",
-    address: "Manila, Philippines",
-  },
-  {
-    title: "Jason Briscoe",
-    slug: "jason-briscoe",
-    category: ["remodeling", "interior design"],
-    description:
-      "Giving brands the energy to change. I use design to help clients find the vision and courage to take on the world.",
-    img: {
-      src: [
-        "https://images.unsplash.com/photo-1502005097973-6a7082348e28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
-        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      ],
-      orig: "https://unsplash.com/photos/AQl-J19ocWE",
-      author: "Photo by Jason Briscoe on Unsplash",
-    },
-    amount: "Php 4,000,000.00",
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "Jason Briscoe",
-    address: "Toronto",
-    featured: true,
-  },
-  {
-    title: "The Rock and Roll Hall of Fame and Museum",
-    slug: "lance-anderson",
-    category: ["construction", "interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
-    img: {
-      src: [
-        "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-        "https://images.unsplash.com/photo-1487603527224-a650979f288e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        "https://images.unsplash.com/photo-1487603097198-fe76cd44579d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        "https://images.unsplash.com/photo-1487603348225-f4bb6ceba144?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      ],
-      orig: "https://unsplash.com/photos/QdAAasrZhdk",
-      author: "Photo by Lance Anderson on Unsplash",
-    },
-    amount: "Php 4,000,000.00",
-    duration: "85 Calendar days",
-    completionDate: "Feb. 20, 2018",
-    owner: "Lance Anderson",
-    address: "Cleveland, United States",
-    featured: true,
+    duration: "",
+    address: "",
+    // featured: true,
   },
 ];

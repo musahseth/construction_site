@@ -1,7 +1,7 @@
 import React from "react";
 import { Serviceslist } from "../../utils/services";
 
-const Services = () => {
+const Services = ({ n = 6 }) => {
   return (
     <div className="container mx-auto py-20  p-4 ">
       <h1 className="text-primary-content text-center text-4xl uppercase font-bold mb-12">
@@ -9,7 +9,7 @@ const Services = () => {
       </h1>
 
       <div className="container mx-auto grid place-content-center grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 pt-20 p-4">
-        {Serviceslist.slice(0, 6).map((service, i) => (
+        {Serviceslist.slice(0, n).map((service, i) => (
           <div
             key={i}
             className="bg- background flex flex-col justify-between items-center gap-4 border-4 border-border "
