@@ -92,13 +92,13 @@ export default function Navbartop() {
         // shouldHideOnScroll
         // isBordered
         variant="sticky"
-        className="bg-primary gray-700"
+        className="bg-primary"
       >
         <NavbarContent className="pr-3" justify="start">
           <NavbarBrand>
             <Link
               href={"/"}
-              className="font-bold text-2xl p-2 capitalize"
+              className="font-bold text-4xl p-2 uppercase"
             >
               Nyande
             </Link>
@@ -118,7 +118,7 @@ export default function Navbartop() {
           />
         </NavbarContent>
         <NavbarMenu>
-          <NavbarMenuItem className="md:hidden p-1rounded-lg mt-2 flex flex-col gap-3 text-center">
+          <NavbarMenuItem className="md:hidden p-1 rounded-lg mt-2 flex flex-col gap-3 text-center">
             {Navlist}
           </NavbarMenuItem>
         </NavbarMenu>

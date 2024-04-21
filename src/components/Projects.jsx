@@ -12,12 +12,11 @@ const Projects = () => {
           {" "}
           FEATURED PROJECTS
         </h1>
-        <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 py-20 p-4 lg:gap-16">
+        <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 py-20 p-4 lg:gap-16">
           {projects
             .filter((project) => project?.featured === true)
+            .slice(0, 3)
             .map((project, i) => (
-              // <div key={i}>{i}</div>
-              //     <ProjCard proj={project.node} />
               <div
                 key={i}
                 className="relative bg-secondary overflow-hidden h-80 w-full"
@@ -43,7 +42,9 @@ const Projects = () => {
         </div>
         <section className="text-center mt-4 ">
           <p className="text-copy mb-4">Explore more about our Projects</p>
-          <Button variant="ghost">All Projects</Button>
+          <Button variant="ghost" as={Link} href="/projects">
+            All Projects
+          </Button>
         </section>
       </div>
     </div>

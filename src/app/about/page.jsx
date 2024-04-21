@@ -9,7 +9,6 @@ const About = () => {
     "Our cardinal goal is to serve our clients with a 'Rest assured' experience when we are picked to execute their projects. Emphasis on clear communication and follow-through procedures ensures that client's objectives are top prority in the planning and execution of all our projects",
     "We are proud of our excellent, cautious and time-bound delivery and our clients can always be assured that only the most experienced and qualified people are serving them, all the time.",
   ];
-  const fullTitle = "SAFE HOME CONSTRUCTIONS";
   return (
     <>
       <div className="bg-aboutBg h-[40vh] w-full bg-cover bg-center bg-fixed ">

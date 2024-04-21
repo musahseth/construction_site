@@ -7,10 +7,6 @@ import Services from "@/components/Services";
 
 const Projects = () => {
 
-
-
-
-    
   return (
     <>
       <div className="bg-foreground bg-projectBg bg-center bg-cover bg-no-repeat p-4">
@@ -19,7 +15,7 @@ const Projects = () => {
             {" "}
             PROJECTS
           </h1>
-          <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 py-20 p-4 lg:gap-16">
+          <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 py-20 p-4 lg:gap-16">
             {projects.map((project, i) => (
               <div
                 key={i}
