@@ -1,4 +1,5 @@
 import { Button, Divider } from "@nextui-org/react";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -18,10 +19,21 @@ const Hero = () => {
           <div>Build better.</div>
         </div>
         <div className="w-full flex justify-center items-center gap-4 p-4">
-          <Button className="px-8 py-4" color="primary">
+          <Button
+            as={Link}
+            href="/projects"
+            className="px-8 py-4"
+            color="primary"
+          >
             Projects{" "}
           </Button>
-          <Button className="px-8 py-4" color="primary" variant="ghost">
+          <Button
+            as={Link}
+            href="/contact"
+            className="px-8 py-4"
+            color="primary"
+            variant="ghost"
+          >
             Contact
           </Button>
         </div>
