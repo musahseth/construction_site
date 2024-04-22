@@ -1,6 +1,6 @@
-import { GoLocation } from "react-icons/go"; 
-import { AiOutlineMail } from "react-icons/ai"; 
-import { BiPhoneIncoming } from "react-icons/bi"; 
+import { GoLocation } from "react-icons/go";
+import { AiOutlineMail } from "react-icons/ai";
+import { BiPhoneIncoming } from "react-icons/bi";
 import React from "react";
 
 const Contact = () => {
@@ -27,13 +27,13 @@ const Contact = () => {
         </div>
         <div className="bg-background flex justify-center items-center gap-4 rounded-xl p-4">
           <div className="flex  items-center justify-center rounded-lg  text-primary p-4">
-            <AiOutlineMail size={100}  />
+            <AiOutlineMail size={100} />
           </div>
           <div className="p-4">
             <h3 className="mb-2 text-primary-content text-lg font-bold md:text-xl cursor-pointer hover:text-primary">
               E-MAIL
             </h3>
-            <p className="mb-2 text-copy">..@gmail.com</p>
+            <p className="mb-2 text-copy">osmancash@gmail.com</p>
           </div>
         </div>
         <div className="bg-background flex justify-center items-center gap-4 rounded-xl p-4">
@@ -44,8 +44,8 @@ const Contact = () => {
             <h3 className="mb-2 text-primary-content text-lg font-bold md:text-xl cursor-pointer hover:text-primary">
               ADDRESS
             </h3>
-            <p className="mb-2 text-copy">street address 1</p>
-            <p className="mb-2 text-copy">street address 2</p>
+            <p className="mb-2 text-copy">Abokobi</p>
+            {/* <p className="mb-2 text-copy">street address 2</p> */}
           </div>
         </div>
       </div>
