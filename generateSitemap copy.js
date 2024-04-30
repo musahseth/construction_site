@@ -2,7 +2,7 @@ const SitemapGenerator = require("sitemap-generator");
 const fs = require("fs");
 
 // Initialize generator
-const generator = SitemapGenerator("https://www.nyandeconstructioncompany.com", {
+const generator = SitemapGenerator("https://www.decarage.com", {
   stripQuerystring: false, // Whether to strip query string from URLs
   filepath: "./public/sitemap.xml", // Path to save the generated sitemap
 });
