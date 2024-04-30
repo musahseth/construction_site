@@ -18,7 +18,7 @@ export const generateMetadata = async ({ params }) => {
     description: project?.description,
     siteName: "Nyande",
     icons: {
-      icon: project?.img.src?.[0].url,
+      icon: project?.img.src?.[0],
     },
     keywords: `${project?.title} - Nyande Construction Company `,
     openGraph: {
