@@ -2,6 +2,7 @@ import React from "react";
 import { projects } from "../../utils/projects";
 import { Button, Image } from "@nextui-org/react";
 import Link from "next/link";
+import ProjectCard from "./ProjectCard";
 // import Image from "next/image";
 
 const Projects = () => {
@@ -17,27 +18,7 @@ const Projects = () => {
             .filter((project) => project?.featured === true)
             .slice(0, 3)
             .map((project, i) => (
-              <div
-                key={i}
-                className="relative bg-secondary overflow-hidden h-80 w-full"
-              >
-                <Link href={`/projects/${project.title}/#single-project`}>
-                  <img
-                    src={project?.img.src[0]}
-                    alt={project?.title + " image Nyande Constructions company "}
-                    title={""}
-                    className="object-cover classNames  w-full h-full"
-                  />
-                  <div className="w-full h-full absolute top-0 left-0 bg-black/20 opacity-0 transition duration-400 hover:opacity-100 hover:duration-600 p-4">
-                    <div className="proj-content flex flex-col justify-center items-center bg-black/30 border-2 border-white p-8 overflow-hidden text-white text-center">
-                      <h4 className="uppercase font-bold text-xl mb-4">
-                        {project?.title}
-                      </h4>
-                      <p>{project?.description}</p>
-                    </div>
-                  </div>
-                </Link>
-              </div>
+              <ProjectCard key={i} project={project} />
             ))}
         </div>
         <section className="text-center mt-4 ">

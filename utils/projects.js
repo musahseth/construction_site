@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "4-bedroom-duplex-with-a-studio",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description: "4-bedroom duplex with a studio",
     img: {
       src: [
@@ -18,7 +18,7 @@ export const projects = [
 
   {
     title: "4-bedroom-duplex",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description:
       "A 4-bedroom duplex with a presidential suite, a luxurious parlor, a dining area, a library and a kitchen with boys quarters behind.",
     img: {
@@ -37,7 +37,7 @@ export const projects = [
 
   {
     title: "interior-4555",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
@@ -56,7 +56,7 @@ export const projects = [
 
   {
     title: "interior-54fg",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
@@ -76,7 +76,7 @@ export const projects = [
 
   {
     title: "Six-3-bedroom-apartments.",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description:
       "Six-3-bedroom-apartments Each apartment comes with  a standard sitting room, 3 spacious rooms with splash washrooms",
     img: {
@@ -93,7 +93,7 @@ export const projects = [
 
   {
     title: "2-bedroom--apartments.",
-    category: ["interior design"],
+    category: ["All", "interior design"],
     description:
       "2-bedroom apartments Each apartment has two bedrooms en-suite, a parlor with dining area , a kitchen and visitor’s washroom  ",
     img: {
@@ -114,7 +114,7 @@ export const projects = [
   //
   // {
   //   title: "Homes-tyrthgh",
-  //   category: ["construction"],
+  //   category: ["All","construction"],
   //   description:
   //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
   //   img: {
@@ -135,7 +135,7 @@ export const projects = [
   //
   // {
   //   title: "interior-3",
-  //   category: ["interior design"],
+  //   category: ["All","interior design"],
   //   description:
   //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
   //   img: {
