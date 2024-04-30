@@ -92,7 +92,7 @@ export const projects = [
   },
 
   {
-    title: "2-bedroom apartments.",
+    title: "2-bedroom--apartments.",
     category: ["interior design"],
     description:
       "2-bedroom apartments Each apartment has two bedrooms en-suite, a parlor with dining area , a kitchen and visitor’s washroom  ",

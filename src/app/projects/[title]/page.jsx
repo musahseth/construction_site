@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 
 export async function generateStaticParams() {
   return projects.map((p) => ({
-    title: p.title,
+    title: p?.title,
   }));
 }
 
@@ -14,17 +14,17 @@ export const generateMetadata = async ({ params }) => {
 
   return {
     metadataBase: new URL("https://www.nyandeconstructioncompany.com/"),
-    title: project.project,
-    description: project.description,
+    title: project?.title,
+    description: project?.description,
     siteName: "Nyande",
     icons: {
       icon: project?.img.src?.[0].url,
     },
-    keywords: `${project.title} - Nyande Construction Company `,
+    keywords: `${project?.title} - Nyande Construction Company `,
     openGraph: {
       title: "Project Page - Nyande Construction Company",
       type: "website",
-      url: `https://www.nyandeconstructioncompany.com/projects/${params.title}`,
+      url: `https://www.nyandeconstructioncompany.com/projects/${params?.title}`,
       description: "View project details.",
 
       images: [
@@ -44,7 +44,7 @@ export const generateMetadata = async ({ params }) => {
 };
 
 const Singleproject = ({ params }) => {
-  const title = params.title;
+  const title = params?.title;
 
   const project = projects.find((p) => p.title === title);
 
@@ -55,10 +55,10 @@ const Singleproject = ({ params }) => {
         <div className="container mx-auto flex md:flex-row flex-col-reverse justify-center  py-20">
           <div className="flex-1 flex flex-col gap-8 justify-start items-start p-4">
             <h1 className="text-primary-content text-3xl uppercase font-bold mb-4 md:mb-8">
-              {project.title.replace(/-/g, " ")}
+              {project?.title.replace(/-/g, " ")}
             </h1>
             <div className="text-copy text-lg">
-              <p className="mb-4">{project.description}</p>
+              <p className="mb-4">{project?.description}</p>
             </div>
             <div className="flex flex-col gap-5 text-copy text-lg">
               <div className="flex items-center gap-4">
@@ -67,7 +67,7 @@ const Singleproject = ({ params }) => {
                   Scope of work :{" "}
                   <span className="font-normal capitalize">
                     {" "}
-                    {project.category.map((p) => p)}
+                    {project?.category.map((p) => p)}
                   </span>
                 </p>
               </div>
@@ -77,7 +77,7 @@ const Singleproject = ({ params }) => {
                   Duration :{" "}
                   <span className="font-normal capitalize">
                     {" "}
-                    {project.duration}
+                    {project?.duration}
                   </span>
                 </p>
               </div>
@@ -86,7 +86,7 @@ const Singleproject = ({ params }) => {
                 <p className="text-primary-content hover:text-primary font-bold text-lg cursor-pointer">
                   Address :{" "}
                   <span className="font-normal capitalize">
-                    {project.address}
+                    {project?.address}
                   </span>
                 </p>
               </div>
