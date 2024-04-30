@@ -22,19 +22,11 @@ export const generateMetadata = async ({ params }) => {
     },
     keywords: `${project?.title} - Nyande Construction Company `,
     openGraph: {
-      title: "Project Page - Nyande Construction Company",
+      title: `${project?.title} - Nyande Construction Company `,
       type: "website",
       url: `https://www.nyandeconstructioncompany.com/projects/${params?.title}`,
       description: "View project details.",
-
-      images: [
-        {
-          url: project?.img.src,
-          width: 800,
-          height: 600,
-          alt: `${project?.title}-Image`,
-        },
-      ],
+      images: project?.img.src,
     },
     // twitter: {
     //   handle: "@nyandesigns",
