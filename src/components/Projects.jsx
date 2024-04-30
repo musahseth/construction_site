@@ -21,10 +21,10 @@ const Projects = () => {
                 key={i}
                 className="relative bg-secondary overflow-hidden h-80 w-full"
               >
-                <Link href={`/`}>
+                <Link href={`/projects/${project.title}/#single-project`}>
                   <img
                     src={project.img.src[0]}
-                    alt={""}
+                    alt={project.title + " image Nyande Constructions company "}
                     title={""}
                     className="object-cover classNames  w-full h-full"
                   />

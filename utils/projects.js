@@ -1,9 +1,8 @@
 export const projects = [
   {
-    title: "interior",
+    title: "4-bedroom-duplex-with-a-studio",
     category: ["interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    description: "4-bedroom duplex with a studio",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715532/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.21.39_08ee77b7_scg54f.jpg",
@@ -12,48 +11,32 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_6c24a7fa_uhr1ys.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "4-5 months",
+    address: " Lakeside estate, Accra",
     featured: true,
   },
+
   {
-    title: "interior",
+    title: "4-bedroom-duplex",
     category: ["interior design"],
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+      "A 4-bedroom duplex with a presidential suite, a luxurious parlor, a dining area, a library and a kitchen with boys quarters behind.",
     img: {
       src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715512/Nyande-constructions/pro-3/IMG-20240331-WA0031_ej0gva.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715513/Nyande-constructions/pro-3/IMG-20240331-WA0032_bjhiup.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0025_ttp9ni.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240401-WA0008_wldyhv.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715522/Nyande-constructions/pro-6/IMG-20240420-WA0017_dvqcj9.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715501/Nyande-constructions/pro-2/IMG-20240331-WA0020_hozrba.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715499/Nyande-constructions/pro-2/IMG-20240331-WA0015_ffgegx.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "8 months",
+    address: "Abuja-Nigeria",
     featured: true,
   },
+
   {
-    title: "interior",
-    category: ["interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
-    img: {
-      src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0035_p7hpbk.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0034_mhjo7p.jpg",
-      ],
-    },
-    duration: "",
-    address: "",
-    featured: true,
-  },
-  {
-    title: "interior",
+    title: "interior-4555",
     category: ["interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
@@ -70,27 +53,32 @@ export const projects = [
     address: "",
     featured: true,
   },
+
   {
-    title: "interior",
+    title: "interior-54fg",
     category: ["interior design"],
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     img: {
       src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240401-WA0008_wldyhv.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715522/Nyande-constructions/pro-6/IMG-20240420-WA0017_dvqcj9.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0035_p7hpbk.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0034_mhjo7p.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715512/Nyande-constructions/pro-3/IMG-20240331-WA0031_ej0gva.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715513/Nyande-constructions/pro-3/IMG-20240331-WA0032_bjhiup.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0025_ttp9ni.jpg",
       ],
     },
     duration: "",
     address: "",
     // featured: true,
   },
+
   {
-    title: "interior",
+    title: "Six-3-bedroom-apartments.",
     category: ["interior design"],
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+      "Six-3-bedroom-apartments Each apartment comes with  a standard sitting room, 3 spacious rooms with splash washrooms",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715527/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.07_97d357c8_g4rxq0.jpg",
@@ -98,15 +86,16 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715528/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.08_b4f49786_sk6z33.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "18 months",
+    address: "Abokobi",
     // featured: true,
   },
+
   {
-    title: "interior",
+    title: "2-bedroom apartments.",
     category: ["interior design"],
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+      "2-bedroom apartments Each apartment has two bedrooms en-suite, a parlor with dining area , a kitchen and visitor’s washroom  ",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0025_rufp5b.jpg",
@@ -117,44 +106,48 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0021_py9uln.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "8 months",
+    address: "Bawleshi",
     // featured: true,
   },
+  //
+  //
+  // {
+  //   title: "Homes-tyrthgh",
+  //   category: ["construction"],
+  //   description:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+  //   img: {
+  //     src: [
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
+  //     ],
+  //   },
+  //   duration: "",
+  //   address: "",
+  //   // featured: true,
+  // },
 
-  {
-    title: "  Homes",
-    category: ["construction"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
-    img: {
-      src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
-      ],
-    },
-    duration: "",
-    address: "",
-    // featured: true,
-  },
-  {
-    title: "interior",
-    category: ["interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
-    img: {
-      src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715501/Nyande-constructions/pro-2/IMG-20240331-WA0020_hozrba.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715500/Nyande-constructions/pro-2/IMG-20240331-WA0019_szavqi.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715499/Nyande-constructions/pro-2/IMG-20240331-WA0015_ffgegx.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715502/Nyande-constructions/pro-2/IMG-20240331-WA0021_mdseo7.jpg",
-      ],
-    },
-    duration: "",
-    address: "",
-    // featured: true,
-  },
+  //
+  //
+  // {
+  //   title: "interior-3",
+  //   category: ["interior design"],
+  //   description:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+  //   img: {
+  //     src: [
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
+  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
+  //     ],
+  //   },
+  //   duration: "",
+  //   address: "",
+  //   // featured: true,
+  // },
 ];
