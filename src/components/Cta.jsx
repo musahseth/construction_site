@@ -13,7 +13,14 @@ const Cta = () => {
           <h3 className="font-bold text-2xl text-white">
             Looking for a high quality constructor for your project ?
           </h3>
-          <Button as={Link} href="/contact" color="primary" size="lg" variant="bordered" className="uppercase">
+          <Button
+            as={Link}
+            href="/contact"
+            color="primary"
+            size="lg"
+            variant="ghost"
+            className="uppercase"
+          >
             contact Us
           </Button>
         </div>

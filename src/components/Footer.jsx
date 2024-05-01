@@ -37,7 +37,11 @@ const Footer = () => {
       <div className="w-full text-center p-2 bg-black/40">
         {" "}
         build by{" "}
-        <a href="https://mansir.vercel.app/" target="_blank" className="underline text-blue-700">
+        <a
+          href="https://mansir.vercel.app/"
+          target="_blank"
+          className="underline text-blue-700"
+        >
           mansir
         </a>
       </div>

@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <section className="text-center mt-4 ">
           <p className="text-copy mb-4">Explore more about our Projects</p>
-          <Button variant="ghost" as={Link} href="/projects">
+          <Button variant="ghost"size="lg" as={Link} href="/projects">
             All Projects
           </Button>
         </section>
