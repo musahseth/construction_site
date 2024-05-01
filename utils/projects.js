@@ -36,10 +36,9 @@ export const projects = [
   },
 
   {
-    title: "interior-4555",
+    title: "2-bedroom-apartments-all-en-suite.",
     category: ["All", "interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    description: "2-bedroom apartments, all en-suite.",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715517/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_f5cad63c_ckuekc.jpg",
@@ -49,16 +48,15 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715520/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.11.54_7d7ff796_e97abg.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "One and half year",
+    address: "Adenta",
     featured: true,
   },
 
   {
-    title: "interior-54fg",
+    title: "3--bedroom-apartments",
     category: ["All", "interior design"],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+    description: "3 bedroom apartments",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg",
@@ -113,10 +111,9 @@ export const projects = [
   //
   //
   // {
-  //   title: "Homes-tyrthgh",
+  //   title: "Six-bedroom-mansion,--all en-suite.",
   //   category: ["All","construction"],
-  //   description:
-  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+  //   description:"Six bedroom mansion, all en-suite.",
   //   img: {
   //     src: [
   //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
@@ -126,18 +123,17 @@ export const projects = [
   //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
   //     ],
   //   },
-  //   duration: "",
-  //   address: "",
+  //   duration: "10 months",
+  //   address: "Abokobi-Accra",
   //   // featured: true,
   // },
 
   //
   //
   // {
-  //   title: "interior-3",
+  //   title: "Nine Chamber and hall apartments",
   //   category: ["All","interior design"],
-  //   description:
-  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
+  //   description:"Nine Chamber and hall apartments ",
   //   img: {
   //     src: [
   //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
@@ -146,8 +142,8 @@ export const projects = [
   //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
   //     ],
   //   },
-  //   duration: "",
-  //   address: "",
+  //   duration: "1 year",
+  //   address: "Oyarifa",
   //   // featured: true,
   // },
 ];
