@@ -36,7 +36,7 @@ export const projects = [
   },
 
   {
-    title: "2-bedroom-apartments-all-en-suite.",
+    title: "2-bedroom-apartments-all--en-suite.",
     category: ["All", "interior design"],
     description: "2-bedroom apartments, all en-suite.",
     img: {
@@ -67,8 +67,8 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0025_ttp9ni.jpg",
       ],
     },
-    duration: "",
-    address: "",
+    duration: "2 years",
+    address: "Oyarifa",
     // featured: true,
   },
 
@@ -111,7 +111,7 @@ export const projects = [
   //
   //
   // {
-  //   title: "Six-bedroom-mansion,--all en-suite.",
+  //   title: "Six-bedroom-mansion,--all-en-suite.",
   //   category: ["All","construction"],
   //   description:"Six bedroom mansion, all en-suite.",
   //   img: {
@@ -131,9 +131,9 @@ export const projects = [
   //
   //
   // {
-  //   title: "Nine Chamber and hall apartments",
+  //   title: "Nine-Chamber-and-hall-apartments",
   //   category: ["All","interior design"],
-  //   description:"Nine Chamber and hall apartments ",
+  //   description:"Nine Chamber and hall apartments",
   //   img: {
   //     src: [
   //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
