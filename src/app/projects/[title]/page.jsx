@@ -53,16 +53,16 @@ const Singleproject = ({ params }) => {
               <p className="mb-4">{project?.description}</p>
             </div>
             <div className="flex flex-col gap-5 text-copy text-lg">
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <span className="bg-primary p-2 rounded-full"></span>
-                {/* <p className="text-primary-content hover:text-primary font-bold text-lg cursor-pointer">
+                <p className="text-primary-content hover:text-primary font-bold text-lg cursor-pointer">
                   Scope of work :{" "}
                   <span className="font-normal capitalize">
                     {" "}
                     {project?.category.map((p) => p)}
                   </span>
-                </p> */}
-              </div>
+                </p>
+              </div> */}
               <div className="flex items-center gap-4">
                 <span className="bg-primary p-2 rounded-full"></span>
                 <p className="text-primary-content hover:text-primary font-bold text-lg cursor-pointer">
