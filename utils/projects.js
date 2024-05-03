@@ -59,7 +59,6 @@ export const projects = [
     },
     duration: "8 months",
     address: "Abuja-Nigeria",
-    featured: true,
   },
 
   {
@@ -77,7 +76,6 @@ export const projects = [
     },
     duration: "One and half year",
     address: "Adenta",
-    featured: true,
   },
 
   {
@@ -96,7 +94,6 @@ export const projects = [
     },
     duration: "2 years",
     address: "Oyarifa",
-    // featured: true,
   },
 
   {
@@ -113,7 +110,6 @@ export const projects = [
     },
     duration: "18 months",
     address: "Abokobi",
-    // featured: true,
   },
 
   {
@@ -133,21 +129,28 @@ export const projects = [
     },
     duration: "8 months",
     address: "Bawleshi",
-    // featured: true,
   },
-];
-
-[
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
-];
-
-[
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
-  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
+  {
+    title: "other-1",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
+      ],
+    },
+  },
+  {
+    title: "other-2",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
+      ],
+    },
+  },
 ];

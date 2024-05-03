@@ -14,7 +14,7 @@ const Projects = () => {
   };
 
   const filteredProjects = projects.filter((project) =>
-    project.category.includes(tag)
+    project?.category?.includes(tag)
   );
 
   return (
@@ -36,7 +36,7 @@ const Projects = () => {
             ))}
           </div>
           <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 py-20 p-4 lg:gap-16">
-            {filteredProjects.slice().map((project, i) => (
+            {filteredProjects.slice(0,6).map((project, i) => (
               <ProjectCard key={i} project={project} />
             ))}
           </div>
