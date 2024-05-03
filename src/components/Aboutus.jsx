@@ -68,7 +68,7 @@ const Aboutus = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="/https://res.cloudinary.com/djqosl8kp/image/upload/v1713715517/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_f5cad63c_ckuekc.jpg"
+            src="https://res.cloudinary.com/djqosl8kp/image/upload/v1713715517/Nyande-constructions/pro-5/WhatsApp_Image_2024-03-31_at_18.06.07_f5cad63c_ckuekc.jpg"
             alt="about us house construction Company"
 
             className="w-full"
