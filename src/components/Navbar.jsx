@@ -98,7 +98,7 @@ export default function Navbartop() {
           <NavbarBrand>
             <Link
               href={"/"}
-              className="font-bold text-4xl p-2 uppercase"
+              className="font-bold text-2xl md:text-4xl p-2 uppercase"
             >
               Nyande
             </Link>
