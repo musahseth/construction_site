@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "4-bedroom-duplex-with-a-studio",
-    category: ["All", "interior design"],
+    category: ["All", "construction"],
     description: "4-bedroom duplex with a studio",
     img: {
       src: [
@@ -31,7 +31,7 @@ export const projects = [
 
   {
     title: "Nine-Chamber-and-hall-apartments",
-    category: ["All", "interior design"],
+    category: ["All", "construction"],
     description: "Nine Chamber and hall apartments",
     img: {
       src: [
@@ -45,7 +45,7 @@ export const projects = [
 
   {
     title: "4-bedroom-duplex",
-    category: ["All", "interior design"],
+    category: ["All", "completed"],
     description:
       "A 4-bedroom duplex with a presidential suite, a luxurious parlor, a dining area, a library and a kitchen with boys quarters behind.",
     img: {
@@ -64,7 +64,7 @@ export const projects = [
 
   {
     title: "2-bedroom-apartments-all--en-suite",
-    category: ["All", "interior design"],
+    category: ["All", "completed"],
     description: "2-bedroom apartments, all en-suite.",
     img: {
       src: [
@@ -82,7 +82,7 @@ export const projects = [
 
   {
     title: "3--bedroom-apartments",
-    category: ["All", "interior design"],
+    category: ["All", "completed"],
     description: "3 bedroom apartments",
     img: {
       src: [
@@ -101,7 +101,7 @@ export const projects = [
 
   {
     title: "Six-3-bedroom-apartments.",
-    category: ["All", "interior design"],
+    category: ["All", "ongoing"],
     description:
       "Six-3-bedroom-apartments Each apartment comes with  a standard sitting room, 3 spacious rooms with splash washrooms",
     img: {
@@ -118,7 +118,7 @@ export const projects = [
 
   {
     title: "2-bedroom--apartments.",
-    category: ["All", "interior design"],
+    category: ["All", "ongoing"],
     description:
       "2-bedroom apartments Each apartment has two bedrooms en-suite, a parlor with dining area , a kitchen and visitor’s washroom  ",
     img: {

@@ -36,7 +36,7 @@ const Projects = () => {
             ))}
           </div>
           <div className="container mx-auto grid place-content-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 py-20 p-4 lg:gap-16">
-            {filteredProjects.map((project, i) => (
+            {filteredProjects.slice().map((project, i) => (
               <ProjectCard key={i} project={project} />
             ))}
           </div>
@@ -55,7 +55,7 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
     : " hover:border-gray-500 ";
   return (
     <button
-      className={`${buttonStyles} rounded-full border-2 border-border px-4 py-2 cursor-pointer capitalize`}
+      className={`${buttonStyles} rounded-full border-2 border-border py-1 px-2 md:px-4 md:py-2 cursor-pointer capitalize`}
       onClick={() => onClick(name)}
     >
       {name}
