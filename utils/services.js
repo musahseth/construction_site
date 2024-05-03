@@ -25,7 +25,7 @@ export const Serviceslist = [
 
     title: "Commercial Construction",
     description:
-      "In the realm of commercial construction, we specialize in erecting office buildings and retail centers that meet the demands of modern businesses. From sleek office complexes to vibrant retail spaces, we bring innovative design concepts to life while adhering to strict quality standards and timelines.",
+      "In the realm of commercial construction, we experts  in erecting office buildings and retail centers that meet the demands of modern businesses. From sleek office complexes to vibrant retail spaces, we bring innovative design concepts to life while adhering to strict quality standards and timelines.",
   },
   {
     icon: <FaRulerCombined size={100} />,
@@ -39,7 +39,7 @@ export const Serviceslist = [
 
     title: "Plumbing Services",
     description:
-      "Our plumbing services encompass installation, maintenance, and repair of plumbing systems for residential and commercial properties. From fixing leaks and clogs to installing new fixtures and pipes, our experienced plumbers ensure reliable and efficient plumbing solutions.",
+      "Our plumbing services include installation, maintenance, and repair of plumbing systems for residential and commercial properties. From fixing leaks and clogs to installing new fixtures and pipes, our experienced plumbers ensure reliable and efficient plumbing solutions.",
   },
   {
     icon: <GiElectric size={100} />,
@@ -60,7 +60,7 @@ export const Serviceslist = [
 
     title: "Construction of Septic Tanks",
     description:
-      "We specialize in the construction and installation of septic tank systems for residential and commercial properties. Our expertise ensures efficient waste management solutions that comply with regulations and promote environmental sustainability.",
+      "We experts  in the construction and installation of septic tank systems for residential and commercial properties. Our expertise ensures efficient waste management solutions that comply with regulations and promote environmental sustainability.",
   },
   {
     icon: <GiComputerFan size={100} />,
@@ -74,14 +74,14 @@ export const Serviceslist = [
 
     title: "Carpentry and Roofing Services",
     description:
-      "From constructing custom furniture to repairing and replacing roofs, our carpentry and roofing services cover a wide range of woodwork and roofing tasks. With skilled craftsmen and quality materials, we deliver durable and visually appealing carpentry and roofing solutions.",
+      "Our carpentry and roofing services cover a wide range of woodwork and roofing tasks. With skilled craftsmen and quality materials, we deliver durable and visually appealing carpentry and roofing solutions.",
   },
   {
     icon: <GiSteelClaws size={100} />,
 
     title: "Steel Bending Works",
     description:
-      "We specialize in shaping and bending steel for various construction purposes, including reinforcing structures and creating custom metalwork. With precision and expertise, we fabricate steel components to meet the unique requirements of each project.",
+      "We experts in shaping and bending steel for various construction purposes, including reinforcing structures and creating custom metalwork. With precision and expertise, we fabricate steel components to meet the unique requirements of each project.",
   },
   {
     icon: <GiDefensiveWall size={100} />,

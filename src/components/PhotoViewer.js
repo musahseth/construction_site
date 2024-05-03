@@ -5,7 +5,7 @@ import { Image } from "@nextui-org/react";
 const PhotoViewer = ({ project }) => {
   const [imgIndex, setImgIndex] = useState(0);
 
-  const imgList = project.img.src;
+  const imgList = project?.img.src;
 
   return (
     <main className="">

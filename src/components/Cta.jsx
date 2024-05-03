@@ -9,8 +9,8 @@ const Cta = () => {
       id="quote"
     >
       <div className="bg-black/60">
-        <div className="container mx-auto h-60 flex flex-col gap-8 md:flex-row md:justify-between md:items-center p-4">
-          <h3 className="font-bold text-2xl text-white">
+        <div className="container mx-auto h-80 flex flex-col gap-8 md:flex-row md:justify-between md:items-center p-4">
+          <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white">
             Looking for a high quality constructor for your project ?
           </h3>
           <Button

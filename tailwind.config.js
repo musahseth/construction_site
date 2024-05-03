@@ -11,12 +11,18 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        heroBg: "url('/heroBg.jpg')",
-        aboutBg: "url('/aboutBg.jpg')",
-        serviceBg: "url('/serviceBg.jpg')",
-        contactBg: "url('/contactBg.jpg')",
-        projectBg: "url('/polygon.png')",
-        parallaxBg: "url('/parallax-1.jpg')",
+        heroBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1714695391/Nyande-constructions/ppp/WhatsApp_Image_2024-04-28_at_16.44.44_4cde2b2e_crcyzn.jpg')",
+        aboutBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1713715559/Nyande-constructions/WhatsApp_Image_2024-04-01_at_07.21.39_457712df_miyayy.jpg')",
+        serviceBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1713715502/Nyande-constructions/pro-2/IMG-20240331-WA0021_mdseo7.jpg')",
+        contactBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg')",
+        projectBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1714696925/Nyande-constructions/public/polygon_cwvxxi.png')",
+        parallaxBg:
+          "url('https://res.cloudinary.com/djqosl8kp/image/upload/v1714696926/Nyande-constructions/public/parallax-1_vjbttq.jpg')",
       },
       colors: {
         primary: "var(--primary)",

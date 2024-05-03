@@ -15,6 +15,33 @@ export const projects = [
     address: " Lakeside estate, Accra",
     featured: true,
   },
+  {
+    title: "Six-bedroom-mansion-all-en-suite",
+    category: ["All", "construction"],
+    description: "Six bedroom mansion, all en-suite.",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714695391/Nyande-constructions/ppp/WhatsApp_Image_2024-04-28_at_16.43.54_bb76fbde_cjee3d.jpg",
+      ],
+    },
+    duration: "10 months",
+    address: "Abokobi-Accra",
+    featured: true,
+  },
+
+  {
+    title: "Nine-Chamber-and-hall-apartments",
+    category: ["All", "interior design"],
+    description: "Nine Chamber and hall apartments",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714695391/Nyande-constructions/ppp/WhatsApp_Image_2024-04-28_at_16.44.44_4cde2b2e_crcyzn.jpg",
+      ],
+    },
+    duration: "1 year",
+    address: "Oyarifa",
+    featured: true,
+  },
 
   {
     title: "4-bedroom-duplex",
@@ -36,7 +63,7 @@ export const projects = [
   },
 
   {
-    title: "2-bedroom-apartments-all--en-suite.",
+    title: "2-bedroom-apartments-all--en-suite",
     category: ["All", "interior design"],
     description: "2-bedroom apartments, all en-suite.",
     img: {
@@ -108,42 +135,19 @@ export const projects = [
     address: "Bawleshi",
     // featured: true,
   },
-  //
-  //
-  // {
-  //   title: "Six-bedroom-mansion,--all-en-suite.",
-  //   category: ["All","construction"],
-  //   description:"Six bedroom mansion, all en-suite.",
-  //   img: {
-  //     src: [
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
-  //     ],
-  //   },
-  //   duration: "10 months",
-  //   address: "Abokobi-Accra",
-  //   // featured: true,
-  // },
+];
 
-  //
-  //
-  // {
-  //   title: "Nine-Chamber-and-hall-apartments",
-  //   category: ["All","interior design"],
-  //   description:"Nine Chamber and hall apartments",
-  //   img: {
-  //     src: [
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
-  //       "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
-  //     ],
-  //   },
-  //   duration: "1 year",
-  //   address: "Oyarifa",
-  //   // featured: true,
-  // },
+[
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
+];
+
+[
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0026_laq864.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715509/Nyande-constructions/pro-3/IMG-20240331-WA0028_ubqf4i.jpg",
+  "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715511/Nyande-constructions/pro-3/IMG-20240331-WA0030_etlci4.jpg",
 ];

@@ -26,7 +26,12 @@ const About = () => {
         </h1>
         <div className="flex flex-col lg:flex-row ">
           <div className="flex-1">
-            <Image src={"/aboutBg.jpg"} alt="Company" />
+            <Image
+              src={
+                "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg"
+              }
+              alt="about us house construction Company"
+              />
           </div>
 
           <div className="flex-1 flex flex-col gap-6 px-4">
