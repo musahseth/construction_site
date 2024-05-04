@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "4-bedroom-duplex-with-a-studio",
-    category: ["All", "construction"],
+    category: ["All", "construction", "ongoing"],
     description: "4-bedroom duplex with a studio",
     img: {
       src: [
@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Six-bedroom-mansion-all-en-suite",
-    category: ["All", "construction"],
+    category: ["All", "construction", "ongoing"],
     description: "Six bedroom mansion, all en-suite.",
     img: {
       src: [
@@ -28,10 +28,9 @@ export const projects = [
     address: "Abokobi-Accra",
     featured: true,
   },
-
   {
     title: "Nine-Chamber-and-hall-apartments",
-    category: ["All", "construction"],
+    category: ["All", "construction", "ongoing"],
     description: "Nine Chamber and hall apartments",
     img: {
       src: [
