@@ -5,10 +5,10 @@ import Link from "next/link";
 import Services from "@/components/Services";
 import ProjectCard from "@/components/ProjectCard";
 
-export const metadata = {
-  title: "Projects - Nyande construction company ",
-  description: "explorer our work and services",
-};
+// export const metadata = {
+//   title: "Projects - Nyande construction company ",
+//   description: "explorer our work and services",
+// };
 
 
 const Projects = () => {
