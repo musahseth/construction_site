@@ -25,7 +25,7 @@ export const Serviceslist = [
 
     title: "Commercial Construction",
     description:
-      "In the realm of commercial construction, we experts  in erecting office buildings and retail centers that meet the demands of modern businesses. From sleek office complexes to vibrant retail spaces, we bring innovative design concepts to life while adhering to strict quality standards and timelines.",
+      "In the realm of commercial construction, we are experts in erecting office buildings and retail centers that meet the demands of modern businesses. From sleek office complexes to vibrant retail spaces, we bring innovative design concepts to life while adhering to strict quality standards and timelines.",
   },
   {
     icon: <FaRulerCombined size={100} />,
@@ -60,7 +60,7 @@ export const Serviceslist = [
 
     title: "Construction of Septic Tanks",
     description:
-      "We experts  in the construction and installation of septic tank systems for residential and commercial properties. Our expertise ensures efficient waste management solutions that comply with regulations and promote environmental sustainability.",
+      "We have enough experience in the construction of septic tank systems for residential and commercial properties. Our expertise ensures efficient waste management solutions that comply with regulations and promote environmental sustainability.",
   },
   {
     icon: <GiComputerFan size={100} />,

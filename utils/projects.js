@@ -153,4 +153,30 @@ export const projects = [
       ],
     },
   },
+  {
+    title: "Professional-tiling-work",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_6c8cc68b_hrjzrz.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_6c8cc68b_hrjzrz.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_5b2f0de1_mszygq.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715559/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_37de39e7_aduqft.jpg",
+      ],
+    },
+  },
+  {
+    title: "clearing-for-2-bedroom-apartment",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715487/Nyande-constructions/IMG-20240403-WA0007_itr5s8.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715487/Nyande-constructions/IMG-20240403-WA0006_j5q1w2.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715486/Nyande-constructions/IMG-20240403-WA0005_aon6mb.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715485/Nyande-constructions/IMG-20240403-WA0004_dndcql.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0003_d8wzul.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0002_aa4xkh.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
+      ],
+    },
+  },
 ];
