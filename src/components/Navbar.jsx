@@ -68,13 +68,17 @@ export default function Navbartop() {
       name: "Contact",
       link: "/contact",
     },
+    {
+      name: "Gallery",
+      link: "/gallery",
+    },
   ];
   const Navlist = (
     <>
       {Navitems.map((item, i) => (
         <NavbarItem
           key={i}
-          className="px-4 capitalize text- text-copy hover:underline"
+          className="px-4 capitalize text-sm hover:underline"
           onClick={() => setIsMenuOpen(false)}
         >
           <Link href={item.link}>{item.name}</Link>

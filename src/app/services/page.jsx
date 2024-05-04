@@ -2,6 +2,12 @@ import React from "react";
 
 import { Serviceslist } from "../../../utils/services";
 
+export const metadata = {
+  title: "services - Nyande construction company ",
+  description: "explorer our work and services",
+};
+
+
 const Services = () => {
   return (
     <div>

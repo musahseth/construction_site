@@ -1,7 +1,27 @@
-import { Link } from "@nextui-org/react";
 import React from "react";
+import { Link } from "@nextui-org/react";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { AiOutlineMail } from "react-icons/ai";
+import { BiPhoneIncoming } from "react-icons/bi";
 
 const Footer = () => {
+  const options = [
+    {
+      icon: <BiPhoneIncoming className="text-primary m-2" size={25} />,
+      title: "MOBILE PHONE",
+      contact: "+233 24 382 9407",
+    },
+    {
+      icon: <AiOutlineMail className="text-primary m-2" size={25} />,
+      title: "E-MAIL",
+      contact: "osmancash@gmail.com",
+    },
+    {
+      icon: <HiOutlineLocationMarker className="text-primary m-2" size={25} />,
+      title: "ADDRESS",
+      contact: "Abokobi",
+    },
+  ];
   return (
     <footer className="bg-gray-700 pt-12 text-white">
       <div className="container mx-auto flex flex-col md:flex-row justify- between items- start p-4">
@@ -13,6 +33,7 @@ const Footer = () => {
           >
             Nyande
           </Link>
+          <p>Nyande Construction Conpany</p>
         </div>
         <div className="flex-1">
           <h1 className="text -primary-content text-xl uppercase font-bold mb-4 md:mb-8">
@@ -21,9 +42,12 @@ const Footer = () => {
           </h1>
           <div className="text- copy text-lg">
             <p className="mb-4">
-              {
-                "Nyande Construction Co began its journey as a general building contractor in 2014. Since then, we've grown steadily, managing diverse projects in Ghana and beyond."
-              }
+              Nyande Construction Co began its journey as a general building
+              contractor in 2014.{" "}
+              <Link href="/about" className="hover:underline">
+                {" "}
+                Learn More
+              </Link>
             </p>
           </div>
         </div>
@@ -32,6 +56,16 @@ const Footer = () => {
             {" "}
             Contact Us
           </h1>
+          <div className="flex flex-col">
+            {options.map((opt, i) => (
+              <div key={i} className="flex gap-2 rounded-xl p-1">
+                {opt.icon}
+                <div className="p-1">
+                  <p> {opt.contact}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div className="w-full text-center p-2 bg-black/50">

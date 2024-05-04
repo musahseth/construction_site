@@ -3,8 +3,13 @@ import React from "react";
 import { projects } from "../../../utils/projects";
 import Link from "next/link";
 import Services from "@/components/Services";
-import { Image } from "@nextui-org/react";
 import ProjectCard from "@/components/ProjectCard";
+
+export const metadata = {
+  title: "Projects - Nyande construction company ",
+  description: "explorer our work and services",
+};
+
 
 const Projects = () => {
   const [tag, setTag] = React.useState("All");

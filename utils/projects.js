@@ -131,7 +131,7 @@ export const projects = [
     address: "Bawleshi",
   },
   {
-    title: "other-1",
+    title: "ongoing-projects",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
@@ -143,7 +143,7 @@ export const projects = [
     },
   },
   {
-    title: "other-2",
+    title: "Professional-window-designs",
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715504/Nyande-constructions/pro-3/IMG-20240331-WA0016_tyu679.jpg",

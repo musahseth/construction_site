@@ -11,6 +11,7 @@ const PhotoViewer = ({ project }) => {
     <main className="">
       <section className="w-full">
         <Image
+          isZoomed
           className="object-cover aspect-square w-full hover:cursor-pointer"
           src={imgList[imgIndex]}
           alt={`imageview ${imgIndex}  of ${project.title} Nyande Constructions company`}

@@ -2,12 +2,18 @@ import Aboutus from "@/components/Aboutus";
 import { Divider, Image } from "@nextui-org/react";
 import React from "react";
 
+export const metadata = {
+  title: "About - Nyande construction company ",
+  description: "details about the company ",
+};
+
+
 const About = () => {
   const aboutContent = [
-    "Nyande Construction Co started as a general building contractor in 2014. Over the years , the company has managed many challenging projects in ghana and beyond and has accumulated skills and experiences in the building industry.",
-    "Presently, Nyande Construction Co takes on the responsibility of main contractor for small to medium size projects for all kinds of people on the social strata with varied income levels. We perform project management functions and make design inputs as value- added services to our clients.",
-    "Our cardinal goal is to serve our clients with a 'Rest assured' experience when we are picked to execute their projects. Emphasis on clear communication and follow-through procedures ensures that client's objectives are top prority in the planning and execution of all our projects",
-    "We are proud of our excellent, cautious and time-bound delivery and our clients can always be assured that only the most experienced and qualified people are serving them, all the time.",
+    `Nyande Construction Co started as a  very small building entity in 2014. Over the years, the company has grown to manage many challenging projects in ghana and beyond and has accumulated extensive skills and experience in the building industry.`,
+    `Presently, Nyande Construction Co takes on the responsibility of main contractor for small to medium size projects for all kinds of people on the social strata with varied income levels. We perform project management functions and make design inputs as value- added services to our clients.`,
+    `Our cardinal goal is to serve our clients with a 'Rest assured' experience when we are picked to execute their projects. Emphasis on clear communication and follow-through procedures ensures that client's objectives are top prority in the planning and execution of all our projects`,
+    `We are proud of our excellent, cautious and time-bound delivery and our clients can always be assured that only the most experienced and qualified people are serving them, all the time.`,
   ];
   return (
     <>
@@ -27,11 +33,12 @@ const About = () => {
         <div className="flex flex-col lg:flex-row ">
           <div className="flex-1">
             <Image
+            isZoomed
               src={
                 "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg"
               }
               alt="about us house construction Company"
-              />
+            />
           </div>
 
           <div className="flex-1 flex flex-col gap-6 px-4">
