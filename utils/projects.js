@@ -179,4 +179,23 @@ export const projects = [
       ],
     },
   },
+  {
+    title: "site-work-ongoing",
+    img: {
+      src: [
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714695393/Nyande-constructions/ppp/WhatsApp_Image_2024-05-02_at_14.33.15_3a1a2b33_demwwy.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845292/Nyande-constructions/ppp/IMG-20240501-WA0036_nnu5ve.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845292/Nyande-constructions/ppp/IMG-20240501-WA0040_dwj65n.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845292/Nyande-constructions/ppp/IMG-20240501-WA0037_zkutau.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845293/Nyande-constructions/ppp/IMG-20240501-WA0041_muqd5u.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845292/Nyande-constructions/ppp/IMG-20240501-WA0038_livpl9.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714695391/Nyande-constructions/ppp/WhatsApp_Image_2024-05-02_at_14.33.14_35a47275_ayxrlu.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845298/Nyande-constructions/ppp/IMG-20240501-WA0043_agbjct.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845297/Nyande-constructions/ppp/IMG-20240501-WA0045_eywrze.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845294/Nyande-constructions/ppp/IMG-20240501-WA0044_drh0tt.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845294/Nyande-constructions/ppp/IMG-20240501-WA0042_lglwdx.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845293/Nyande-constructions/ppp/IMG-20240501-WA0041_muqd5u.jpg",
+      ],
+    },
+  },
 ];
