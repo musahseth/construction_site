@@ -27,7 +27,7 @@ const Gallery = () => {
                   isZoomed
                   className="z-0 w-full h-full object-cover aspect-square"
                   src={url}
-                  alt={proj.title}
+                  alt={proj?.title?.replace(/-/g, " ")}
                 />
                 <CardFooter className="absolute z-10 bottom-0 bg-black/50">
                   <h4 className="font-semibold md:text-xl">
