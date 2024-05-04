@@ -7,7 +7,6 @@ export const metadata = {
   description: "explorer our work and services gallery",
 };
 
-
 const Gallery = () => {
   return (
     <div className="bg-background">
@@ -18,21 +17,20 @@ const Gallery = () => {
           </h1>
         </div>
       </div>
-      <div className="container mx-auto gap-4 md:gap-8 lg:gap-12 grid grid-cols-4 py-8">
+      <div className="container mx-auto gap-4 md:gap-8 lg:gap-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-8 p-4">
         {projects.map((proj, i) => (
           <>
-            {proj.img.src.map((imageUrl, imageIndex) => (
-              <Card className="" key={i}>
+            {proj.img.src.map((url, i) => (
+              <Card key={i}>
                 <Image
                   removeWrapper
                   isZoomed
                   className="z-0 w-full h-full object-cover aspect-square"
-                  key={imageIndex}
-                  src={imageUrl}
+                  src={url}
                   alt={proj.title}
                 />
-                <CardFooter className="absolute z-10 bottom-1">
-                  <h4 className="font-bold text-xl">
+                <CardFooter className="absolute z-10 bottom-0 bg-black/50">
+                  <h4 className="font-semibold md:text-xl">
                     {proj?.title?.replace(/-/g, " ")}
                   </h4>
                 </CardFooter>
