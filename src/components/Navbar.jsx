@@ -1,9 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
-import { useTheme } from "next-themes";
-import { getCookie, deleteCookie } from "cookies-next";
-import { usePathname } from "next/navigation";
+import React, { useState } from "react";
 
 import {
   Navbar,
@@ -18,32 +14,6 @@ import {
 import Link from "next/link";
 
 export default function Navbartop() {
-  const { theme, setTheme } = useTheme();
-  const pathname = usePathname();
-  const router = useRouter();
-
-  const [scroll, setScroll] = useState(false);
-
-  useEffect(() => {
-    setTheme("light");
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 400) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Navitems = [
