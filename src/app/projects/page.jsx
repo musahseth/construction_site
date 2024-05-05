@@ -12,6 +12,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 
 const Projects = () => {
+ 
   const [tag, setTag] = React.useState("All");
 
   const handleTagChange = (newTag) => {
