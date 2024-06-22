@@ -25,7 +25,7 @@ const ContactUs = () => {
     {
       icon: <HiOutlineLocationMarker className="text-primary m-4" size={100} />,
       title: "ADDRESS",
-      contact: "Abokobi",
+      contact: "Madina",
     },
   ];
   return (

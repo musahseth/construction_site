@@ -167,14 +167,13 @@ export const projects = [
     title: "clearing-for-2-bedroom-apartment",
     img: {
       src: [
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715487/Nyande-constructions/IMG-20240403-WA0007_itr5s8.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715487/Nyande-constructions/IMG-20240403-WA0006_j5q1w2.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715486/Nyande-constructions/IMG-20240403-WA0005_aon6mb.jpg",
+        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715485/Nyande-constructions/IMG-20240403-WA0004_dndcql.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0003_d8wzul.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0002_aa4xkh.jpg",
-        "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
       ],
     },
   },

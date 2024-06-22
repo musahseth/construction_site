@@ -19,7 +19,7 @@ const Footer = () => {
     {
       icon: <HiOutlineLocationMarker className="text-primary m-2" size={25} />,
       title: "ADDRESS",
-      contact: "Abokobi",
+      contact: "Madina",
     },
   ];
   return (
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full text-center p-2 bg-black/50">
+      {/* <div className="w-full text-center p-2 bg-black/50">
         Build by :{" "}
         <a
           href="https://mansir.vercel.app/"
@@ -77,7 +77,7 @@ const Footer = () => {
         >
           Mansir
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };

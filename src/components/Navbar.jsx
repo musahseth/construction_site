@@ -10,6 +10,7 @@ import {
   NavbarContent,
   NavbarItem,
   Image,
+  Button,
 } from "@nextui-org/react";
 import Link from "next/link";
 
@@ -34,10 +35,7 @@ export default function Navbartop() {
       name: "about",
       link: "/about",
     },
-    {
-      name: "Contact",
-      link: "/contact",
-    },
+
     {
       name: "Gallery",
       link: "/gallery",
@@ -63,10 +61,8 @@ export default function Navbartop() {
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
         maxWidth="2xl"
-        // shouldHideOnScroll
-        // isBordered
         variant="sticky"
-        className="bg-primary"
+        className="bg-white"
       >
         <NavbarContent className="pr-3" justify="start">
           <NavbarBrand>
@@ -74,16 +70,25 @@ export default function Navbartop() {
               href={"/"}
               className="font-bold text-2xl md:text-4xl p-2 uppercase"
             >
-              Nyande
+              {/* Nyande */}
+              <Image src="/logo.png" alt="Nyande Logo" className="h-14" />
             </Link>
           </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent
           className="hidden sm:flex items-center justify-center gap-x-4 font-semibold"
-          justify="end"
+          justify="center"
         >
           {Navlist}
+        </NavbarContent>
+        <NavbarContent
+          className="hidden sm:flex items-center justify-center gap-x-4 font-semibold"
+          justify="end"
+        >
+          <Button as={Link} href="/contact" color="primary" variant="ghost">
+            contact
+          </Button>{" "}
         </NavbarContent>
 
         <NavbarContent className="sm:hidden" justify="end">
@@ -93,7 +98,10 @@ export default function Navbartop() {
         </NavbarContent>
         <NavbarMenu>
           <NavbarMenuItem className="md:hidden p-1 rounded-lg mt-2 flex flex-col gap-3 text-center">
-            {Navlist}
+            {Navlist}{" "}
+            <Button as={Link} href="/contact" color="primary" variant="ghost">
+              contact
+            </Button>{" "}
           </NavbarMenuItem>
         </NavbarMenu>
       </Navbar>

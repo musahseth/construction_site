@@ -12,9 +12,9 @@ const Gallery = () => {
     <div className="bg-background">
       <div className="bg-aboutBg h-[40vh] w-full bg-cover bg-center bg-fixed ">
         <div className="flex flex-col justify-center items-center h-full bg-black/50">
-          <h1 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
+          <h3 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
             Gallery
-          </h1>
+          </h3>
         </div>
       </div>
       <div className="container mx-auto gap-4 md:gap-8 lg:gap-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-8 p-4">
@@ -30,9 +30,9 @@ const Gallery = () => {
                   alt={proj?.title?.replace(/-/g, " ")}
                 />
                 <CardFooter className="absolute z-10 bottom-0 bg-black/50">
-                  <h4 className="font-semibold md:text-xl">
+                  <p className="font-semibold md:text-xl">
                     {proj?.title?.replace(/-/g, " ")}
-                  </h4>
+                  </p>
                 </CardFooter>
               </Card>
             ))}

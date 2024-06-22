@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
             <Toaster />
             <Analytics />
             <SpeedInsights />
-            <Navbartop />
-
-            {children}
+              <Navbartop />
+        
+            <div>{children}</div>
             <Footer />
           </div>
         </Providers>
