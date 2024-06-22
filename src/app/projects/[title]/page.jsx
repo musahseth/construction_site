@@ -46,9 +46,9 @@ const Singleproject = ({ params }) => {
       <div className="bg-background p-4">
         <div className="container mx-auto flex md:flex-row flex-col-reverse justify-center  py-20">
           <div className="flex-1 flex flex-col gap-8 justify-start items-start p-4">
-            <h1 className="text-primary-content text-3xl uppercase font-bold mb-4 md:mb-8">
+            <h3 className="text-primary-content text-3xl uppercase font-bold mb-4 md:mb-8">
               {project?.title.replace(/-/g, " ")}
-            </h1>
+            </h3>
             <div className="text-copy text-lg">
               <p className="mb-4">{project?.description}</p>
             </div>
