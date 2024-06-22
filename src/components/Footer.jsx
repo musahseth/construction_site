@@ -36,10 +36,10 @@ const Footer = () => {
           <p>Nyande Construction Conpany</p>
         </div>
         <div className="flex-1">
-          <h1 className="text -primary-content text-xl uppercase font-bold mb-4 md:mb-8">
+          <h6 className="text-xl uppercase font-bold mb-4 md:mb-8">
             {" "}
             About Us
-          </h1>
+          </h6>
           <div className="text- copy text-lg">
             <p className="mb-4">
               Nyande Construction Co began its journey as a general building
@@ -52,10 +52,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex-1">
-          <h1 className="text- primary-content text-xl uppercase font-bold mb-4 md:mb-8">
+          <h6 className="text- primary-content text-xl uppercase font-bold mb-4 md:mb-8">
             {" "}
             Contact Us
-          </h1>
+          </h6>
           <div className="flex flex-col">
             {options.map((opt, i) => (
               <div key={i} className="flex gap-2 rounded-xl p-1">

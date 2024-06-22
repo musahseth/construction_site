@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nyande construction company",
-  description: "plan, Build, and more ",
+  description:
+    "Plan, build, and more with Nyande Construction Company. We offer comprehensive construction services to meet all your needs.",
 };
 
 export default function RootLayout({ children }) {
@@ -23,8 +24,8 @@ export default function RootLayout({ children }) {
             <Toaster />
             <Analytics />
             <SpeedInsights />
-              <Navbartop />
-        
+            <Navbartop />
+
             <div>{children}</div>
             <Footer />
           </div>
