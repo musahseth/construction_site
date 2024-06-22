@@ -3,7 +3,7 @@ import { Serviceslist } from "../../utils/services";
 
 const Services = ({ n = 6 }) => {
   return (
-    <div className="container mx-auto py-20  p-4 ">
+    <div className="container mx-auto py-20  p-4">
       <h2 className="text-primary-content text-center text-4xl uppercase font-bold mb-12">
         Services
       </h2>

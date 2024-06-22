@@ -4,8 +4,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-heroBg h-[90vh] w-full bg-cover bg-center bg-fixed ">
-      <div className="flex flex-col justify-center items-center h-full bg-black/60">
+    <div className="bg-heroBg  w-full bg-cover bg-center bg-fixed ">
+      <div className="min-h-[70vh] flex flex-col justify-center items-center h-full bg-black/60">
         <h1 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
           {" "}
           Nyande construction company
