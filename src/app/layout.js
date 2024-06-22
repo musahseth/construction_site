@@ -13,11 +13,19 @@ export const metadata = {
   title: "Nyande construction company",
   description:
     "Plan, build, and more with Nyande Construction Company. We offer comprehensive construction services to meet all your needs.",
+  keywords: "construction house building Tilling design",
+  openGraph: {
+    image: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {" "}
+        <link rel="icon" href="/logo.png" />
+      </head>
       <body className={inter.className}>
         <Providers>
           <div className="">
