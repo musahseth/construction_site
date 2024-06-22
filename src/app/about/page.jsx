@@ -7,7 +7,6 @@ export const metadata = {
   description: "details about the company ",
 };
 
-
 const About = () => {
   const aboutContent = [
     `Nyande Construction Co started as a  very small building entity in 2014. Over the years, the company has grown to manage many challenging projects in ghana and beyond and has accumulated extensive skills and experience in the building industry.`,
@@ -27,13 +26,13 @@ const About = () => {
         </div>
       </div>
       <div className="py-20 container mx-auto p-4">
-        <h1 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
+        <h2 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
           NYANDE CONSTRUCTION COMPANY{" "}
-        </h1>
+        </h2>
         <div className="flex flex-col lg:flex-row ">
           <div className="flex-1">
             <Image
-            isZoomed
+              isZoomed
               src={
                 "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715521/Nyande-constructions/pro-6/IMG-20240420-WA0016_moxtx7.jpg"
               }
@@ -54,9 +53,9 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1 py-8">
             <div className="border-4 border-primary relative text-copy text-lg p-4">
-              <h1 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
                 mission
-              </h1>
+              </h3>
 
               <div className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4">
@@ -224,9 +223,9 @@ const About = () => {
           </div>
           <div className="flex-1 flex flex-col gap-8 py-8">
             <div className=" border-4 border-primary">
-              <h1 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
                 vision
-              </h1>
+              </h3>
               <div className="p-4 text-copy text-lg">
                 <div className="mb-8">
                   <h2 className="text-2xl font-semibold mb-4">
@@ -269,9 +268,9 @@ const About = () => {
               </div>
             </div>
             <div className="border-4 border-primary">
-              <h1 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
                 core values
-              </h1>
+              </h3>
               <div className="p-4 text-copy text-lg">
                 <div className="mb-8">
                   <h2 className="text-2xl font-semibold mb-4">1. Excellence</h2>
