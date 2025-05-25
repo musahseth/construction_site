@@ -475,12 +475,12 @@ const About = () => {
 
               <div className="mb-8">
                 <h2 className="mb-4 text-2xl font-semibold">
-                  Providing a diverse range of services across various
+                  Providing diverse range of services across various
                   industries and geographical locations:
                 </h2>
                 <ul className="mb-4 ml-6 list-disc">
                   <li>
-                    We have the flexibility and expertise to offer a diverse
+                    We have the flexibility and expertise to offer diverse
                     range of services catering to various industries and
                     geographical locations.
                   </li>
@@ -505,7 +505,7 @@ const About = () => {
                 <ul className="mb-4 ml-6 list-disc">
                   <li>
                     Effective communication is essential for the success of any
-                    project. We prioritize open, transparent, and frequent
+                    project. We prioritize open, transparent and frequent
                     communication with our clients to ensure clarity and
                     alignment at every stage of the project.
                   </li>
