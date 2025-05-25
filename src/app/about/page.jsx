@@ -363,7 +363,7 @@ const About = () => {
     `Nyande Construction Co started as a very small building entity in 2014. Over the years, the company has grown to manage many challenging projects in Ghana and beyond and has accumulated extensive skills and experience in the building industry.`,
     `Presently, Nyande Construction Co takes on the responsibility of main contractor for small to medium-sized projects for clients across all social strata with varied income levels. We perform project management functions and make design inputs as value-added services to our clients.`,
     `Our cardinal goal is to serve our clients with a 'Rest assured' experience when we are chosen to execute their projects. Emphasis on clear communication and follow-through procedures ensures that clients' objectives are top priority in the planning and execution of all our projects.`,
-    `We are proud of our excellent, cautious, and time-bound delivery, and our clients can always be assured that only the most experienced and qualified professionals are serving them, at all times.`,
+    `We are proud of our excellent, cautious, and time-bound delivery, and our clients can always be assured that only the most experienced and qualified professionals are serving them at all times.`,
   ];
   return (
     <>
