@@ -1,3 +1,4 @@
+// Path: src\app\gallery\page.jsx
 import React from "react";
 import { Card, CardFooter, Image } from "@nextui-org/react";
 import { projects } from "../../../utils/projects";
@@ -11,13 +12,13 @@ const Gallery = () => {
   return (
     <div className="bg-background">
       <div className="bg-aboutBg h-[40vh] w-full bg-cover bg-center bg-fixed ">
-        <div className="flex flex-col justify-center items-center h-full bg-black/50">
-          <h3 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
+        <div className="flex flex-col items-center justify-center h-full bg-black/50">
+          <h3 className="text-4xl font-bold text-center text-white uppercase shadow-md lg:text-6xl xl:text-7xl">
             Gallery
           </h3>
         </div>
       </div>
-      <div className="container mx-auto gap-4 md:gap-8 lg:gap-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-8 p-4">
+      <div className="container grid grid-cols-2 gap-4 p-4 py-8 mx-auto md:gap-8 lg:gap-12 md:grid-cols-3 lg:grid-cols-4">
         {projects.map((proj, i) => (
           <>
             {proj.img.src.map((url, i) => (
@@ -25,11 +26,11 @@ const Gallery = () => {
                 <Image
                   removeWrapper
                   isZoomed
-                  className="z-0 w-full h-full object-cover aspect-square"
+                  className="z-0 object-cover w-full h-full aspect-square"
                   src={url}
                   alt={proj?.title?.replace(/-/g, " ")}
                 />
-                <CardFooter className="absolute z-10 bottom-0 bg-black/50">
+                <CardFooter className="absolute bottom-0 z-10 bg-black/50">
                   <p className="font-semibold md:text-xl">
                     {proj?.title?.replace(/-/g, " ")}
                   </p>

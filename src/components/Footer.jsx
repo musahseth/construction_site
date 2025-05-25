@@ -1,3 +1,4 @@
+// Path: src\components\Footer.jsx
 import React from "react";
 import { Link } from "@nextui-org/react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -33,7 +34,7 @@ const Footer = () => {
           >
             Nyande
           </Link>
-          <p>Nyande Construction Conpany</p>
+          <p>Nyande Construction Company</p>
         </div>
         <div className="flex-1">
           <h6 className="text-xl uppercase font-bold mb-4 md:mb-8">
