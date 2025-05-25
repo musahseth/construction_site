@@ -1,3 +1,4 @@
+// Path: src\app\about\page.jsx
 // import Aboutus from "@/components/Aboutus";
 // import { Divider, Image } from "@nextui-org/react";
 // import React from "react";
@@ -17,16 +18,16 @@
 //   return (
 //     <>
 //       <div className="bg-aboutBg h-[40vh] w-full bg-cover bg-center bg-fixed ">
-//         <div className="flex flex-col justify-center items-center h-full bg-black/50">
-//           <h1 className=" text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
+//         <div className="flex flex-col items-center justify-center h-full bg-black/50">
+//           <h1 className="text-4xl font-bold text-center text-white uppercase shadow-md lg:text-6xl xl:text-7xl">
 //             {" "}
 //             About Us{" "}
 //           </h1>
-//           <Divider className="my-4 bg-primary max-w-sm h-1" />
+//           <Divider className="h-1 max-w-sm my-4 bg-primary" />
 //         </div>
 //       </div>
-//       <div className="py-20 container mx-auto p-4">
-//         <h2 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
+//       <div className="container p-4 py-20 mx-auto">
+//         <h2 className="mb-4 text-4xl font-bold text-center uppercase text-primary-content md:mb-8">
 //           NYANDE CONSTRUCTION COMPANY{" "}
 //         </h2>
 //         <div className="flex flex-col lg:flex-row ">
@@ -40,8 +41,8 @@
 //             />
 //           </div>
 
-//           <div className="flex-1 flex flex-col gap-6 px-4">
-//             <p className="font-bold text-xl"> NYANDE CONSTRUCTION COMPANY</p>
+//           <div className="flex flex-col flex-1 gap-6 px-4">
+//             <p className="text-xl font-bold"> NYANDE CONSTRUCTION COMPANY</p>
 //             {aboutContent.map((para, i) => (
 //               <p className="text-lg" key={i}>
 //                 {para}
@@ -49,22 +50,22 @@
 //             ))}
 //           </div>
 //         </div>
-//         <Divider className="my-4 bg-primary container mx-auto h-1" />
-//         <div className="flex flex-col md:flex-row gap-8">
+//         <Divider className="container h-1 mx-auto my-4 bg-primary" />
+//         <div className="flex flex-col gap-8 md:flex-row">
 //           <div className="flex-1 py-8">
-//             <div className="border-4 border-primary relative text-copy text-lg p-4">
-//               <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+//             <div className="relative p-4 text-lg border-4 border-primary text-copy">
+//               <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
 //                 mission
 //               </h3>
 
 //               <div className="mb-8">
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Providing tailor-made and fully integrated suite of
 //                   construction services for clients from different income groups
 //                   at fair and competitive prices in a safe environment full of
 //                   trust, honesty, and dedication:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     We understand that each client has unique needs and
 //                     financial considerations. Therefore, we offer personalized
@@ -97,10 +98,10 @@
 //               </div>
 
 //               <div className="mb-8">
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Providing awesome customer service to our clients:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     We are dedicated to providing an outstanding customer
 //                     experience at every touchpoint of our service delivery.
@@ -123,11 +124,11 @@
 //               </div>
 
 //               <div className="mb-8">
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Providing a mixture of services to a variety of industries and
 //                   geographical locations:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     We have the flexibility and expertise to offer a diverse
 //                     range of services catering to various industries and
@@ -147,11 +148,11 @@
 //               </div>
 
 //               <div className="mb-8">
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Continually improving communications with our customers and
 //                   between departments:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     Effective communication is essential for the success of any
 //                     project. We prioritize open, transparent, and frequent
@@ -172,10 +173,10 @@
 //               </div>
 
 //               <div className="mb-8">
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Providing training for personnel’s enhancement:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     {`    We recognize the importance of investing in our personnel's
 //                     growth and development. We provide comprehensive training
@@ -196,10 +197,10 @@
 //               </div>
 
 //               <div>
-//                 <h2 className="text-2xl font-semibold mb-4">
+//                 <h2 className="mb-4 text-2xl font-semibold">
 //                   Recruiting and hiring only those who share our vision:
 //                 </h2>
-//                 <ul className="list-disc ml-6 mb-4">
+//                 <ul className="mb-4 ml-6 list-disc">
 //                   <li>
 //                     {`  We believe that shared values and vision are essential for
 //                     building a cohesive and high-performing team. We carefully
@@ -221,20 +222,20 @@
 //               </div>
 //             </div>
 //           </div>
-//           <div className="flex-1 flex flex-col gap-8 py-8">
-//             <div className=" border-4 border-primary">
-//               <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+//           <div className="flex flex-col flex-1 gap-8 py-8">
+//             <div className="border-4 border-primary">
+//               <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
 //                 vision
 //               </h3>
-//               <div className="p-4 text-copy text-lg">
+//               <div className="p-4 text-lg text-copy">
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">
+//                   <h2 className="mb-4 text-2xl font-semibold">
 //                     To become a contractor of choice by assisting every willing
 //                     and prospective home owner to acquire their desired
 //                     properties with the highest standard of quality, safety, and
 //                     ethics:
 //                   </h2>
-//                   <ul className="list-disc ml-6 mb-4">
+//                   <ul className="mb-4 ml-6 list-disc">
 //                     <li>
 //                       We aspire to be the preferred contractor for homeowners
 //                       seeking to realize their dream properties.
@@ -268,12 +269,12 @@
 //               </div>
 //             </div>
 //             <div className="border-4 border-primary">
-//               <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+//               <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
 //                 core values
 //               </h3>
-//               <div className="p-4 text-copy text-lg">
+//               <div className="p-4 text-lg text-copy">
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">1. Excellence</h2>
+//                   <h2 className="mb-4 text-2xl font-semibold">1. Excellence</h2>
 //                   <p className="mb-4">
 //                     We are dedicated to achieving excellence in every aspect of
 //                     our work, setting the highest standards of quality and
@@ -292,7 +293,7 @@
 //                 </div>
 
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">2. Integrity</h2>
+//                   <h2 className="mb-4 text-2xl font-semibold">2. Integrity</h2>
 //                   <p className="mb-4">
 //                     Integrity lies at the heart of our business philosophy,
 //                     guiding our actions with honesty, transparency, and ethical
@@ -309,7 +310,7 @@
 //                   </p>
 //                 </div>
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">3. Safety</h2>
+//                   <h2 className="mb-4 text-2xl font-semibold">3. Safety</h2>
 //                   <p className="mb-4">
 //                     Prioritizing the safety and well-being of all involved, we
 //                     adhere strictly to industry best practices and regulations,
@@ -318,7 +319,7 @@
 //                   </p>
 //                 </div>
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">
+//                   <h2 className="mb-4 text-2xl font-semibold">
 //                     4. Collaboration
 //                   </h2>
 //                   <p className="mb-4">
@@ -329,7 +330,7 @@
 //                   </p>
 //                 </div>
 //                 <div className="mb-8">
-//                   <h2 className="text-2xl font-semibold mb-4">4. Innovation</h2>
+//                   <h2 className="mb-4 text-2xl font-semibold">4. Innovation</h2>
 //                   <p className="mb-4">
 //                     Committed to continuous improvement, we embrace creativity
 //                     and cutting-edge technologies, fostering a culture of
@@ -367,16 +368,16 @@ const About = () => {
   return (
     <>
       <div className="bg-aboutBg h-[40vh] w-full bg-cover bg-center bg-fixed">
-        <div className="flex flex-col justify-center items-center h-full bg-black/50">
-          <h1 className="text-4xl lg:text-6xl xl:text-7xl text-white text-center uppercase font-bold shadow-md">
+        <div className="flex flex-col items-center justify-center h-full bg-black/50">
+          <h1 className="text-4xl font-bold text-center text-white uppercase shadow-md lg:text-6xl xl:text-7xl">
             {" "}
             About Us{" "}
           </h1>
-          <Divider className="my-4 bg-primary max-w-sm h-1" />
+          <Divider className="h-1 max-w-sm my-4 bg-primary" />
         </div>
       </div>
-      <div className="py-20 container mx-auto p-4">
-        <h2 className="text-primary-content text-center text-4xl uppercase font-bold mb-4 md:mb-8">
+      <div className="container p-4 py-20 mx-auto">
+        <h2 className="mb-4 text-4xl font-bold text-center uppercase text-primary-content md:mb-8">
           NYANDE CONSTRUCTION COMPANY{" "}
         </h2>
         <div className="flex flex-col lg:flex-row">
@@ -390,8 +391,8 @@ const About = () => {
             />
           </div>
 
-          <div className="flex-1 flex flex-col gap-6 px-4">
-            <p className="font-bold text-xl">NYANDE CONSTRUCTION COMPANY</p>
+          <div className="flex flex-col flex-1 gap-6 px-4">
+            <p className="text-xl font-bold">NYANDE CONSTRUCTION COMPANY</p>
             {aboutContent.map((para, i) => (
               <p className="text-lg" key={i}>
                 {para}
@@ -399,22 +400,22 @@ const About = () => {
             ))}
           </div>
         </div>
-        <Divider className="my-4 bg-primary container mx-auto h-1" />
-        <div className="flex flex-col md:flex-row gap-8">
+        <Divider className="container h-1 mx-auto my-4 bg-primary" />
+        <div className="flex flex-col gap-8 md:flex-row">
           <div className="flex-1 py-8">
-            <div className="border-4 border-primary relative text-copy text-lg p-4">
-              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+            <div className="relative p-4 text-lg border-4 border-primary text-copy">
+              <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
                 Mission
               </h3>
 
               <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">
+                <h2 className="mb-4 text-2xl font-semibold">
                   Providing tailor-made and fully integrated suite of
                   construction services for clients from different income groups
                   at fair and competitive prices in a safe environment built on
                   trust, honesty, and dedication:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
                     We understand that each client has unique needs and
                     financial considerations. Therefore, we offer personalized
@@ -447,10 +448,10 @@ const About = () => {
               </div>
 
               <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">
+                <h2 className="mb-4 text-2xl font-semibold">
                   Providing exceptional customer service to our clients:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
                     We are dedicated to providing an outstanding customer
                     experience at every touchpoint of our service delivery.
@@ -473,11 +474,11 @@ const About = () => {
               </div>
 
               <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">
-                  Providing a diverse range of services across various industries and
-                  geographical locations:
+                <h2 className="mb-4 text-2xl font-semibold">
+                  Providing a diverse range of services across various
+                  industries and geographical locations:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
                     We have the flexibility and expertise to offer a diverse
                     range of services catering to various industries and
@@ -497,11 +498,11 @@ const About = () => {
               </div>
 
               <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">
+                <h2 className="mb-4 text-2xl font-semibold">
                   Continually improving communications with our customers and
                   between departments:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
                     Effective communication is essential for the success of any
                     project. We prioritize open, transparent, and frequent
@@ -522,21 +523,25 @@ const About = () => {
               </div>
 
               <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">
+                <h2 className="mb-4 text-2xl font-semibold">
                   Providing training for personnel enhancement:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
+                    {`
                     We recognize the importance of investing in our personnel's
                     growth and development. We provide comprehensive training
                     programs to enhance their skills, knowledge, and
                     competencies.
+                    `}
                   </li>
                   <li>
-                    Our training initiatives cover technical skills,
-                    industry-specific knowledge, soft skills, and leadership
-                    development to empower our personnel to excel in their roles
-                    and contribute to the company's success.
+                    {`
+                      Our training initiatives cover technical skills,
+                      industry-specific knowledge, soft skills, and leadership
+                      development to empower our personnel to excel in their roles
+                      and contribute to the company's success.
+                      `}
                   </li>
                   <li>
                     Continuous learning and professional development are
@@ -546,15 +551,17 @@ const About = () => {
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-4">
+                <h2 className="mb-4 text-2xl font-semibold">
                   Recruiting and hiring only those who share our vision:
                 </h2>
-                <ul className="list-disc ml-6 mb-4">
+                <ul className="mb-4 ml-6 list-disc">
                   <li>
+                    {`
                     We believe that shared values and vision are essential for
                     building a cohesive and high-performing team. We carefully
                     select and recruit individuals who align with our company's
                     values, culture, and long-term objectives.
+                    `}
                   </li>
                   <li>
                     Our recruitment process emphasizes not only technical skills
@@ -562,29 +569,31 @@ const About = () => {
                     alignment with our core values.
                   </li>
                   <li>
-                    By hiring individuals who share our vision, we foster a
-                    positive work environment where everyone is committed to
-                    achieving common goals and upholding our company's
-                    principles.
+                    {`
+                      By hiring individuals who share our vision, we foster a
+                      positive work environment where everyone is committed to
+                      achieving common goals and upholding our company's
+                      principles.
+                      `}
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="flex-1 flex flex-col gap-8 py-8">
+          <div className="flex flex-col flex-1 gap-8 py-8">
             <div className="border-4 border-primary">
-              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+              <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
                 Vision
               </h3>
-              <div className="p-4 text-copy text-lg">
+              <div className="p-4 text-lg text-copy">
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">
+                  <h2 className="mb-4 text-2xl font-semibold">
                     To become a contractor of choice by assisting every willing
                     and prospective homeowner to acquire their desired
                     properties with the highest standard of quality, safety, and
                     ethics:
                   </h2>
-                  <ul className="list-disc ml-6 mb-4">
+                  <ul className="mb-4 ml-6 list-disc">
                     <li>
                       We aspire to be the preferred contractor for homeowners
                       seeking to realize their dream properties.
@@ -603,11 +612,13 @@ const About = () => {
                 </div>
 
                 <p className="mb-4">
-                  Our vision is not just about constructing buildings; it's
-                  about creating homes where families can thrive and memories
-                  are made. We understand the significance of homeownership and
-                  strive to make the process as seamless and fulfilling as
-                  possible for our clients.
+                  {`
+                    Our vision is not just about constructing buildings; it's
+                    about creating homes where families can thrive and memories
+                    are made. We understand the significance of homeownership and
+                    strive to make the process as seamless and fulfilling as
+                    possible for our clients.
+                    `}
                 </p>
                 <p>
                   By prioritizing quality, safety, and ethics, we aim to build
@@ -618,12 +629,12 @@ const About = () => {
               </div>
             </div>
             <div className="border-4 border-primary">
-              <h3 className="-mt-8 ml-8 w-fit uppercase font-bold text-xl text-primary p-4 bg-white">
+              <h3 className="p-4 ml-8 -mt-8 text-xl font-bold uppercase bg-white w-fit text-primary">
                 Core Values
               </h3>
-              <div className="p-4 text-copy text-lg">
+              <div className="p-4 text-lg text-copy">
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">1. Excellence</h2>
+                  <h2 className="mb-4 text-2xl font-semibold">1. Excellence</h2>
                   <p className="mb-4">
                     We are dedicated to achieving excellence in every aspect of
                     our work, setting the highest standards of quality and
@@ -642,7 +653,7 @@ const About = () => {
                 </div>
 
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">2. Integrity</h2>
+                  <h2 className="mb-4 text-2xl font-semibold">2. Integrity</h2>
                   <p className="mb-4">
                     Integrity lies at the heart of our business philosophy,
                     guiding our actions with honesty, transparency, and ethical
@@ -659,7 +670,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">3. Safety</h2>
+                  <h2 className="mb-4 text-2xl font-semibold">3. Safety</h2>
                   <p className="mb-4">
                     Prioritizing the safety and well-being of all involved, we
                     adhere strictly to industry best practices and regulations,
@@ -668,7 +679,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">
+                  <h2 className="mb-4 text-2xl font-semibold">
                     4. Collaboration
                   </h2>
                   <p className="mb-4">
@@ -679,7 +690,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4">5. Innovation</h2>
+                  <h2 className="mb-4 text-2xl font-semibold">5. Innovation</h2>
                   <p className="mb-4">
                     Committed to continuous improvement, we embrace creativity
                     and cutting-edge technologies, fostering a culture of
