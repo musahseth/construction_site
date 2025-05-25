@@ -413,7 +413,7 @@ const About = () => {
                   Providing tailor-made and fully integrated suite of
                   construction services for clients from different income groups
                   at fair and competitive prices in a safe environment built on
-                  trust, honesty, and dedication:
+                  trust, honesty and dedication:
                 </h2>
                 <ul className="mb-4 ml-6 list-disc">
                   <li>
@@ -424,24 +424,24 @@ const About = () => {
                   </li>
                   <li>
                     Our comprehensive suite of construction services encompasses
-                    everything from initial planning and design to construction,
-                    renovation, and maintenance. We ensure that every aspect of
+                    everything from initial planning and designing to construction,
+                    renovation and maintenance. We ensure that every aspect of
                     the project is seamlessly integrated to deliver exceptional
                     results.
                   </li>
                   <li>
                     Fair and competitive pricing is at the core of our business
-                    ethos. We strive to provide transparent pricing structures
+                    ethos. We strive to provide transparent pricing structure
                     that offer value for money while maintaining competitiveness
                     in the market.
                   </li>
                   <li>
                     Safety is our top priority. We adhere strictly to safety
                     regulations and best practices to create a secure
-                    environment for our clients, employees, and subcontractors.
-                    Trust, honesty, and dedication are the cornerstones of our
+                    environment for our clients, employees and subcontractors.
+                    Trust, honesty and dedication are the cornerstones of our
                     relationships with clients. We prioritize clear
-                    communication, ethical conduct, and unwavering commitment to
+                    communication, ethical conduct and unwavering commitment to
                     delivering on our promises.
                   </li>
                 </ul>
@@ -458,12 +458,12 @@ const About = () => {
                   </li>
                   <li>
                     Our customer service team is highly trained and equipped to
-                    address any inquiries, concerns, or issues promptly and
+                    address any inquiries, concerns or issues promptly and
                     effectively.
                   </li>
                   <li>
                     We prioritize listening to our clients, understanding their
-                    needs, and exceeding their expectations at every
+                    needs and exceeding their expectations at every
                     opportunity.
                   </li>
                   <li>
