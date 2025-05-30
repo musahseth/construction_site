@@ -7,6 +7,7 @@ export const projects = [
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715532/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.21.39_08ee77b7_scg54f.jpg",
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563437/nyande/IMG-20250525-WA0024_o2eqkx.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_84f30bb8_dhpxji.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_c339a1f4_jwwagy.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715531/Nyande-constructions/pro-9/WhatsApp_Image_2024-04-01_at_07.20.07_6c24a7fa_uhr1ys.jpg",
@@ -86,8 +87,6 @@ export const projects = [
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715516/Nyande-constructions/pro-4/WhatsApp_Image_2024-03-31_at_18.00.01_aaceccfc_fyacpa.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0035_p7hpbk.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715514/Nyande-constructions/pro-4/IMG-20240331-WA0034_mhjo7p.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715512/Nyande-constructions/pro-3/IMG-20240331-WA0031_ej0gva.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715513/Nyande-constructions/pro-3/IMG-20240331-WA0032_bjhiup.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715508/Nyande-constructions/pro-3/IMG-20240331-WA0025_ttp9ni.jpg",
       ],
@@ -103,7 +102,6 @@ export const projects = [
       "Six-3-bedroom-apartments Each apartment comes with  a standard sitting room, 3 spacious rooms with splash washrooms",
     img: {
       src: [
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715527/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.07_97d357c8_g4rxq0.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715528/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.08_660be2c7_hcfc9b.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715528/Nyande-constructions/pro-7/WhatsApp_Image_2024-04-01_at_07.08.08_b4f49786_sk6z33.jpg",
       ],
@@ -123,8 +121,6 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715530/Nyande-constructions/pro-8/IMG-20240420-WA0026_idpa3b.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0023_ootw1n.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0022_wy7aul.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0024_qbrkra.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715529/Nyande-constructions/pro-8/IMG-20240420-WA0021_py9uln.jpg",
       ],
     },
     duration: "8 months",
@@ -135,9 +131,7 @@ export const projects = [
     img: {
       src: [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0010_xrr3b9.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0013_n5facu.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715496/Nyande-constructions/pro-1/IMG-20240331-WA0011_uxo2qw.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715498/Nyande-constructions/pro-1/IMG-20240331-WA0014_c0qgvi.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715495/Nyande-constructions/pro-1/IMG-20240331-WA0008_beq7po.jpg",
       ],
     },
@@ -157,9 +151,7 @@ export const projects = [
     title: "Professional-tiling-work",
     img: {
       src: [
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_6c8cc68b_hrjzrz.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_6c8cc68b_hrjzrz.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715560/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_5b2f0de1_mszygq.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715559/Nyande-constructions/WhatsApp_Image_2024-04-07_at_08.50.10_37de39e7_aduqft.jpg",
       ],
     },
@@ -168,13 +160,9 @@ export const projects = [
     title: "clearing-for-2-bedroom-apartment",
     img: {
       src: [
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715487/Nyande-constructions/IMG-20240403-WA0007_itr5s8.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715486/Nyande-constructions/IMG-20240403-WA0005_aon6mb.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715483/Nyande-constructions/IMG-20240403-WA0001_pixzmz.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715485/Nyande-constructions/IMG-20240403-WA0004_dndcql.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0003_d8wzul.jpg",
-        // "https://res.cloudinary.com/djqosl8kp/image/upload/v1713715484/Nyande-constructions/IMG-20240403-WA0002_aa4xkh.jpg",
       ],
     },
   },
@@ -194,6 +182,32 @@ export const projects = [
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845294/Nyande-constructions/ppp/IMG-20240501-WA0044_drh0tt.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845294/Nyande-constructions/ppp/IMG-20240501-WA0042_lglwdx.jpg",
         "https://res.cloudinary.com/djqosl8kp/image/upload/v1714845293/Nyande-constructions/ppp/IMG-20240501-WA0041_muqd5u.jpg",
+      ],
+    },
+  },
+  {
+    title: "spetic-tanks",
+    img: {
+      src: [
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563509/nyande/IMG-20250525-WA0026_fauwbz.jpg",
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563543/nyande/IMG-20250525-WA0025_h5cdqu.jpg",
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563567/nyande/IMG-20250525-WA0027_tfhnlo.jpg",
+      ],
+    },
+  },
+  {
+    title: "Hardcore-phase-of-the-foundation",
+    img: {
+      src: [
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563437/nyande/IMG-20250525-WA0028_hyaite.jpg",
+      ],
+    },
+  },
+  {
+    title: "Borehole-drilling",
+    img: {
+      src: [
+        "https://res.cloudinary.com/df1jkpcwc/image/upload/v1748563437/nyande/WhatsApp_Image_2025-05-25_at_17.15.20_7c349033_ie8rhx.jpg",
       ],
     },
   },
